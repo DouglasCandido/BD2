@@ -1,15 +1,6 @@
 drop table if exists postgres.public.funcionario cascade;
 drop table if exists postgres.public.departamento cascade;
 
-create table if not exists postgres.public.departamento
-(
-	codigo serial primary key,
-	descricao varchar(100) not null,
-	cod_gerente int default null
-);
-
-alter table postgres.public.departamento add foreign key (cod_gerente) references funcionario(codigo) on update cascade on delete set null ;
-
 create table if not exists postgres.public.funcionario
 (
 	codigo int primary key not null,
@@ -20,4 +11,13 @@ create table if not exists postgres.public.funcionario
 	cod_depto int default null
 );
 
+create table if not exists postgres.public.departamento
+(
+	codigo serial primary key,
+	descricao varchar(100) not null,
+	cod_gerente int default null
+);
+
 alter table postgres.public.funcionario add foreign key(cod_depto) references departamento(codigo) on update cascade on delete restrict;
+alter table postgres.public.departamento add foreign key (cod_gerente) references funcionario(codigo) on update cascade on delete set null;
+
