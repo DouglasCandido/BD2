@@ -12,7 +12,11 @@ insert into funcionario(nome, sexo, dt_nasc, salario, cod_depto) values('Albert 
 
 /* Tabela departamento */
 
-insert into departamento() values();
+insert into departamento(descricao, cod_gerente) values('Departamento Administrativo ', 1);
+insert into departamento(descricao, cod_gerente) values('Departamento de Marketing', 2);
+insert into departamento(descricao, cod_gerente) values('Departamento de Recursos Humanos', 3);
+insert into departamento(descricao, cod_gerente) values('Departamento de Tecnologia da Informação', 4);
+insert into departamento(descricao, cod_gerente) values('Departamento de Ciências Aplicadas', 5);
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
