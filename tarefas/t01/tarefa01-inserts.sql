@@ -43,7 +43,12 @@ insert into atividade(nome, descricao, cod_responsavel, data_inicio) values('Ela
 
 /* Tabela atividade_projeto */
 
-insert into atividade_projeto() values();
+insert into atividade_projeto(cod_projeto, cod_atividade) values(1, 1);
+insert into atividade_projeto(cod_projeto, cod_atividade) values(2, 2);
+insert into atividade_projeto(cod_projeto, cod_atividade) values(3, 3);
+insert into atividade_projeto(cod_projeto, cod_atividade) values(4, 4);
+insert into atividade_projeto(cod_projeto, cod_atividade) values(5, 5);
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
+
 
