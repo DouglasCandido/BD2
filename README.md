@@ -10,4 +10,6 @@ Email: douglasmateus1@hotmail.com
 
 # Tarefas:
 
-[Tarefa 01]()
+[Tarefa 01](https://github.com/DouglasCandido/BD2/blob/main/tarefas/tarefa01.md)
+
+
