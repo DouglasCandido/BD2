@@ -14,7 +14,7 @@
 
     Quando o Full Outer Join é utilizado numa consulta, ela retorna tanto os resultados pretendidos (As tuplas que são resultados do link e match entre dois parâmetros de condição passados na consulta) quanto as tuplas que não obedecem (Não há match) a condição previamente especificada como parâmetro.
 
-    No MySQL e MariaDB não há uma keyword específica para realizar o FULL OUTER JOIN, portanto precisa-se unir, com UNION, duas queries distintas (Uma realizada com um LEFT JOIN e outra realizada com o RIGHT JOIN).
+    No MySQL e MariaDB não há uma keyword específica para realizar o FULL OUTER JOIN, portanto precisa-se unir, com UNION, duas queries distintas (Uma realizada com o LEFT JOIN e outra realizada com o RIGHT JOIN).
 
     Exemplo:
     
