@@ -24,7 +24,7 @@ create table if not exists postgres.public.departamento
 (
 	codigo serial primary key,
 	descricao varchar(100) not null,
-	cod_gerente int not null
+	cod_gerente int
 );
 
 create table if not exists postgres.public.projeto

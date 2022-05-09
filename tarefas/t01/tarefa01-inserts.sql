@@ -19,6 +19,7 @@ insert into departamento(descricao, cod_gerente) values('Departamento de Marketi
 insert into departamento(descricao, cod_gerente) values('Departamento de Recursos Humanos', 3);
 insert into departamento(descricao, cod_gerente) values('Departamento de Tecnologia da Informação', 4);
 insert into departamento(descricao, cod_gerente) values('Departamento de Ciências Aplicadas', 5);
+insert into departamento(descricao) values('Departamento de Finanças'); 
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
