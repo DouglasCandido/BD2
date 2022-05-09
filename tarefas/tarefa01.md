@@ -1,3 +1,5 @@
+# Escolhi resolver as questões ímpares da lista de exercícios
+
 # Modo de usar:
 
 * Executar os CREATEs TABLEs
