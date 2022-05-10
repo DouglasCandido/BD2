@@ -17,7 +17,7 @@ create table if not exists postgres.public.funcionario
 	sexo char(1) not null,
 	dt_nasc date not null,
 	salario decimal(10, 2) not null,
-	cod_depto int not null
+	cod_depto int
 );
 
 create table if not exists postgres.public.departamento
