@@ -37,7 +37,9 @@
 
 [Q17](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q17.sql)
 
-[Q19]()
+[Q19](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q19.sql)
+
+
 
 
 
