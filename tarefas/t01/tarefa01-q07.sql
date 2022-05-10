@@ -6,11 +6,11 @@ from funcionario f
 inner join departamento d 
 on f.cod_depto = d.codigo group by d.codigo order by d.codigo asc;
 
-select DISTINCT f.nome as gerente, d.descricao as nome_departamento, CAST(null as bigint) as total_funcionarios_por_departamento
+select distinct f.nome as gerente, d.descricao as nome_departamento, CAST(null as bigint) as total_funcionarios_por_departamento
 from funcionario f right join departamento d on f.cod_depto = d.codigo
 where f.codigo in (select d.cod_gerente from departamento d, funcionario f where f.cod_depto = d.codigo and d.cod_gerente = f.codigo)
 union
-select DISTINCT f.nome as gerente, d.descricao as nome_departamento, CAST(null as bigint) as total_funcionarios_por_departamento
+select distinct f.nome as gerente, d.descricao as nome_departamento, CAST(null as bigint) as total_funcionarios_por_departamento
 from funcionario f right join departamento d on f.cod_depto = d.codigo
 where d.codigo not in (select f.cod_depto from funcionario f, departamento d where f.cod_depto = d.codigo and d.cod_gerente = f.codigo)
 union

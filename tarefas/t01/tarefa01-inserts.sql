@@ -8,6 +8,7 @@ insert into funcionario(nome, sexo, dt_nasc, salario, cod_depto) values('Saint-C
 insert into funcionario(nome, sexo, dt_nasc, salario, cod_depto) values('Erivonete Soares de Lucena', 'M', '1969-05-10', 3333.33, 3);
 insert into funcionario(nome, sexo, dt_nasc, salario, cod_depto) values('Steven Paul Jobs', 'H', '1955-02-24', 100000.00, 4);
 insert into funcionario(nome, sexo, dt_nasc, salario, cod_depto) values('Bruce Wayne', 'H', '1915-04-17', '150000', 4);
+insert into funcionario(nome, sexo, dt_nasc, salario, cod_depto) values ('William Henry Gates III', 'H', '1955-10-28', '500000', 4);
 insert into funcionario(nome, sexo, dt_nasc, salario, cod_depto) values('Albert Einstein', 'H', '1879-03-14', 50000.00, 5);
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
@@ -26,9 +27,11 @@ insert into departamento(descricao) values('Departamento de Finanças');
 /* Tabela projeto */
 
 insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Projeto de Pesquisa & Desenvolvimento', 'Formular estratégias visando a inovação por meio da criação de novos produtos e patentes', 1, 1, '2022-05-08');
+insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Criação de filiais', 'Projeto que busca formular estratégias de expansão da empresa', 1, 1, '2022-05-09');
 insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Projeto de criação de novos canais de comunicação', 'Buscar novos meios de comunicação com a sociedade para realizar o Marketing', 2, 2, '2022-05-08');
 insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Projeto de Capacitação dos Funcionários', 'Ofertar cursos sobre os conhecimentos atuais de cada área para capacitar os funcionários', 3, 3, '2022-05-08');
 insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Projeto de Redesign da Infraestrutura de Rede da empresa', 'Redesenhar uma nova infraestrutura de rede na empresa, buscando a máxima eficiência', 4, 4, '2022-05-08');
+insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values ('Projeto de criação de um Sistema Operacional para a empresa', 'Este projeto busca criar o próprio Sistema Operacional para a empresa', 4, 8, '2022-05-09');
 insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Projeto de Implementação de uso da Energia Limpa e Renovável na empresa', 'Instalar paineis fotovoltaicos buscando a economia da energia utilizada pela empresa', 5, 5, '2022-05-08');
 
 
