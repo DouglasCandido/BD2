@@ -29,5 +29,13 @@
 
 [Q11](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q11.sql)
 
+[Q13]()
+
+[Q15]()
+
+[Q117]()
+
+[Q19]()
+
 
 
