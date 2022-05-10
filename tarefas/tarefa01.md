@@ -17,3 +17,9 @@
 
 # Scripts das consultas resolvidas da lista de exercícios:
 
+[Q1](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q01.sql)
+[Q3](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q03.sql)
+[Q5](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q05.md)
+[Q7](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q07.sql)
+[Q9](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q09.sql)
+
