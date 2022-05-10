@@ -33,7 +33,8 @@ insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) va
 insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Projeto de Redesign da Infraestrutura de Rede da empresa', 'Redesenhar uma nova infraestrutura de rede na empresa, buscando a máxima eficiência', 4, 4, '2022-05-08');
 insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values ('Projeto de criação de um Sistema Operacional para a empresa', 'Este projeto busca criar o próprio Sistema Operacional para a empresa', 4, 8, '2022-05-09');
 insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Projeto de Implementação de uso da Energia Limpa e Renovável na empresa', 'Instalar paineis fotovoltaicos buscando a economia da energia utilizada pela empresa', 5, 5, '2022-05-08');
-
+insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Projeto de Ginástica Laboral', 'Projeto que busca melhorar a qualidade de vida dos funcionários da empresa', 3, 1, '2022-05-10');
+insert into projeto(nome, descricao, cod_depto, cod_responsavel, data_inicio) values('Plano de Marketing', 'Projeto para elaborar o Plano de Marketing da empresa', 2, 3, '2022-06-10');
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 
