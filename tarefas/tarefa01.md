@@ -27,5 +27,7 @@
 
 [Q9](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q09.sql)
 
+[Q11](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t01/tarefa01-q11.sql)
+
 
 
