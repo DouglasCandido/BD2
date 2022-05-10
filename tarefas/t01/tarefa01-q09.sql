@@ -33,7 +33,7 @@ where f.cod_depto = d.codigo and salario_funcionario > (select f.salario from fu
 
 /* Segunda solução (Mas ainda incompleta) que pensei */
 
-/* View que retorna o salario dos gerentes de cada departamento */
+/* View que retorna o salário dos gerentes de cada departamento */
 create view salario_dos_gerentes as select f.nome 
 as nome_gerente, f.salario as salario_gerente, d.descricao as nome_departamento from funcionario f, departamento d where f.cod_depto = d.codigo and f.codigo = d.cod_gerente;
 

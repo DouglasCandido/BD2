@@ -1,5 +1,7 @@
 # Escolhi resolver as questões ímpares da lista de exercícios
 
+## Acredito que eu não consegui resolver algumas das questões corretamente, mas fiz o melhor que eu podia.
+
 # Modo de usar:
 
 * Executar os CREATEs TABLEs
