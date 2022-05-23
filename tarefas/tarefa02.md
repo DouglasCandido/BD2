@@ -10,11 +10,11 @@
 
 [Q6](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t02/tarefa02-q06.sql)
 
-[Q7]()
+[Q7](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t02/tarefa02-q07.sql)
 
-[Q8]()
+[Q8](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t02/tarefa02-q08.sql)
 
-[Q9]()
+[Q9](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t02/tarefa02-q09.sql)
 
 
 
