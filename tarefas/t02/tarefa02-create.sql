@@ -36,7 +36,7 @@ create table if not exists postgres.public.voo
 create table if not exists postgres.public.milhas
 (
 	cliente int not null primary key,
-	quantidade int not null
+	quantidade int not null default 0
 	
 );
 
