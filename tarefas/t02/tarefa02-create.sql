@@ -29,7 +29,7 @@ create table if not exists postgres.public.voo
 	codigo serial primary key,
 	tipo char(1) not null default 'a',
 	piloto int not null,
-	num_passageiros int not null default 100,
+	num_passageiros int not null default 0,
 	distancia decimal(10, 1) not null default 1000.0
 );
 
