@@ -8,7 +8,7 @@
 
 [Q5](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t02/tarefa02-q05.sql)
 
-[Q6]()
+[Q6](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t02/tarefa02-q06.sql)
 
 [Q7]()
 
