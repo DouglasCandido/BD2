@@ -4,7 +4,7 @@
 
 # Scripts que resolvem as questões propostas da lista de exercícios:
 
-[Q4]()
+[Q4](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t02/tarefa02-q04.sql)
 
 [Q5]()
 

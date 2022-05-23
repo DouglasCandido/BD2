@@ -20,17 +20,17 @@ create table if not exists postgres.public.cliente
 create table if not exists postgres.public.piloto
 (
 	codigo serial primary key,
-	nome varchar(100) not null,
+	nome varchar(100),
 	num_voos int not null default 0
 );
 
 create table if not exists postgres.public.voo
 (
 	codigo serial primary key,
-	tipo char(1) not null,
+	tipo char(1) not null default 'a',
 	piloto int not null,
-	num_passageiros int not null,
-	distancia decimal(10, 1) not null
+	num_passageiros int not null default 100,
+	distancia decimal(10, 1) not null default 1000.0
 );
 
 create table if not exists postgres.public.milhas
