@@ -1,12 +1,5 @@
-# Modo de usar:
-
-* Executar os CREATEs TABLEs
-* Executar os INSERTs
-* Executar os ALTER TABLEs
-* Executar os SELECTs
-
 # Script de criação do esquema relacional:
-
+<https://github.com/DouglasCandido/BD2/blob/main/tarefas/t02/tarefa02-create.sql>
 
 
 # Scripts que resolvem as questões propostas da lista de exercícios:
