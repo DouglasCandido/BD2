@@ -1,6 +1,10 @@
-/* 08. Crie um gatilho que delete todos os clientes de um voo sempre que aquele voo for
+/*
+
+08. Crie um gatilho que delete todos os clientes de um voo sempre que aquele voo for
 deletado e mais um gatilho para deletar o piloto. (Para efeito de informação, considere
-que o avião caiu). */
+que o avião caiu). 
+
+*/
 
 create function deletar_piloto() 
 returns trigger as $$
