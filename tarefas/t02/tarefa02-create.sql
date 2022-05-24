@@ -51,12 +51,12 @@ create table if not exists postgres.public.cliente_voo
 
 /* Foreign Keys */
 
-alter table postgres.public.voo add foreign key(piloto) references piloto(codigo) on update cascade on delete set null;
+alter table postgres.public.voo add foreign key(piloto) references piloto(codigo) on update cascade on delete cascade;
 
-alter table postgres.public.milhas add foreign key(cliente) references cliente(codigo) on update cascade on delete restrict;
+alter table postgres.public.milhas add foreign key(cliente) references cliente(codigo) on update cascade on delete cascade;
 
-alter table postgres.public.cliente_voo add foreign key(cliente) references cliente(codigo) on update cascade on delete set null;
-alter table postgres.public.cliente_voo add foreign key(voo) references voo(codigo) on update cascade on delete set null;
+alter table postgres.public.cliente_voo add foreign key(cliente) references cliente(codigo) on update cascade on delete cascade;
+alter table postgres.public.cliente_voo add foreign key(voo) references voo(codigo) on update cascade on delete cascade;
 
 /* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ */
 

@@ -1,7 +1,7 @@
 create function atualizar_passageiros() 
 returns trigger as $$
 begin
-	update voo set num_passageiros = num_passageiros + 1;
+	update voo set num_passageiros = num_passageiros + 1 where codigo = NEW.voo;
 	return new;
 end;
 $$ language plpgsql;
