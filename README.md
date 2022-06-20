@@ -14,3 +14,5 @@ Email: douglasmateus1@hotmail.com
 
 [Tarefa 02](https://github.com/DouglasCandido/BD2/blob/main/tarefas/tarefa02.md)
 
+[Tarefa 03](https://github.com/DouglasCandido/BD2/blob/main/tarefas/tarefa03.md)
+
