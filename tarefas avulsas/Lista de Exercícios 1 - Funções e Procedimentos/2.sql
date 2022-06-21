@@ -20,7 +20,7 @@ create or replace function media_idade_funcionarios_do_departamento(coddepto int
 returns interval as $$
 declare idade_media interval;
 begin
-	select avg(age(CURRENT_DATE, f.dt_nasc)) into idade_media from funcionario f, departamento d where f.depto = d.codigo and d.codigo = coddepto; 
+	select avg(age(CURRENT_DATE, f.dt_nasc)) into idade_media from funcionario f, departamento d where f.depto = d.codigo and d.codigo = coddepto and f.depto = coddepto; 
 	return idade_media;
 end;
 $$ language plpgsql;
