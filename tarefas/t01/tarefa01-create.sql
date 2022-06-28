@@ -1,4 +1,4 @@
-/* Drops */
+/* Drops */ 
 
 drop table if exists postgres.public.funcionario cascade;
 drop table if exists postgres.public.departamento cascade;
