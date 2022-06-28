@@ -15,3 +15,12 @@ ORM (Object Relational Mapper) é uma técnica para aproximar o paradigma de des
 # Links para os programas criados para a tarefa:
 [ODBC](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc.py)
 
+[ODBC - Questão 5, Letra A](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc_a.py)
+
+[ODBC - Questão 5, Letra B](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc_b.py)
+
+[ODBC - Questão 5, Letra C](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc_c.py)
+
+
+
+
