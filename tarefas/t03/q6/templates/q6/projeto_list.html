@@ -1,0 +1,35 @@
+{% extends "q6/base.html" %}
+
+{% block content %}
+<table class="table table-borderless">
+    <thead>
+        <tr>
+            <td>Nome do projeto</td>
+            <td>Descrição do projeto</td>
+            <td>Código do responsável pelo projeto</td>
+            <td>Código do departamento do projeto</td>
+            <td>Data de início do projeto</td>
+            <td>Data do fim do projeto</td>
+            <td><a href="{% url 'projeto_insert' %}" class="btn btn-outline-success"><i class="fa fa-plus"></i>Cadastrar um novo projeto</a></td>
+        </tr>
+    </thead>
+    <tbody>
+        {% for projeto in projeto_list %}
+        <tr>
+            <td>{{projeto.nome}}</td>
+            <td>{{projeto.descricao}}</td>
+            <td>{{projeto.codresponsavel}}</td>
+            <td>{{projeto.coddepto}}</td>
+            <td>{{projeto.datainicio}}</td>
+            <td>{{projeto.datafim}}</td>
+            <td>
+                <a href="{% url 'projeto_update' projeto.id %}" class="btn text-secondary px-0">
+                    <i class="far fa-edit fa-lg"></i>
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock content %}
+

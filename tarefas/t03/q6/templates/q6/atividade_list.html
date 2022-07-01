@@ -1,0 +1,31 @@
+{% extends "q6/base.html" %}
+
+{% block content %}
+<table class="table table-borderless">
+    <thead>
+        <tr>
+            <td>Descrição da atividade</td>
+            <td>Código do projeto</td>
+            <td>Data de início da atividade</td>
+            <td>Data do fim da atividade</td>
+            <td><a href="{% url 'projeto_insert' %}" class="btn btn-outline-success"><i class="fa fa-plus"></i>Cadastrar uma nova atividade</a></td>
+        </tr>
+    </thead>
+    <tbody>
+        {% for atividade in atividade_list %}
+        <tr>
+            <td>{{atividade.descricao}}</td>
+            <td>{{atividade.codprojeto}}</td>
+            <td>{{atividade.datainicio}}</td>
+            <td>{{atividade.datafim}}</td>
+            <td>
+                <a href="{% url 'atividade_update' atividade.id %}" class="btn text-secondary px-0">
+                    <i class="far fa-edit fa-lg"></i>
+                </a>
+            </td>
+        </tr>
+        {% endfor %}
+    </tbody>
+</table>
+{% endblock content %}
+

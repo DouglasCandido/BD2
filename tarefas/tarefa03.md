@@ -13,13 +13,23 @@ ODBC (Open Database Connectivity) é um padrão para acesso a sistemas gerenciad
 ORM (Object Relational Mapper) é uma técnica para aproximar o paradigma de desenvolvimento de aplicações orientadas a objetos ao paradigma do banco de dados relacional. Esse intercâmbio de informações entre os paradigmas se dá da seguinte maneira: o nome das tabelas se transformam nas classes dos objetos e as colunas se transformam nos atributos dos objetos e vice-versa. Para essa tarefa, utilizarei o framework Django, pois tal framework utiliza a linguagem de programação Python para escrever seus códigos-fonte. O Django possui o recurso Models e permite aos programadores representar os dados contidos nas tabelas do banco de dados (Nessa tarefa, o SGBD PostgreSQL) como objetos e ele fornece vários métodos de simples uso para manipular os dados.
 
 # Links para os programas criados para a tarefa:
-[ODBC](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc.py)
+[ODBC - Questão 4](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc.py)
 
 [ODBC - Questão 5, Letra A](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc_a.py)
 
 [ODBC - Questão 5, Letra B](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc_b.py)
 
 [ODBC - Questão 5, Letra C](https://github.com/DouglasCandido/BD2/blob/main/tarefas/t03/odbc_c.py)
+
+## Modo de usar o programa que resolve as questões de ORM da tarefa:
+- Para rodar este projeto Django é preciso utilizar o comando docker-compose build e, em seguida, o comando docker-compose up
+- Já com o aplicativo rodando, abrir outro terminal e executar o comando docker exec -it t03-web-1 bash para entrar dentro do container do app Django
+- Já no terminal que está dentro do container, executar o comando python manage.py migrate
+- Entrar no PGAdmin para executar o script SQL do povoamento inicial
+- Acessar no navegador o url http://localhost:8000/q6/projeto ou http://localhost:8000/q6/atividade
+
+
+
 
 
 
